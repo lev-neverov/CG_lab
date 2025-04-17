@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|c:\\users\\levsn\\source\\repos\\cg_lab1\\cg_lab1\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|solutionrelative:cg_lab1\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|C:\\Users\\levsn\\source\\repos\\CG_lab1\\cg_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|solutionrelative:cg_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|C:\\Users\\levsn\\source\\repos\\CG_lab1\\cg_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|solutionrelative:cg_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|C:\\Users\\levsn\\source\\repos\\CG_lab1\\cg_lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF08C35-A521-4256-8DBC-97535B82F33D}|CG_lab1\\CG_lab1.csproj|solutionrelative:cg_lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "CG_lab1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.Designer.cs",
+              "RelativeToolTip": "CG_lab1\\Form1.Designer.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:16:34.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "CG_lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.cs",
+              "RelativeToolTip": "CG_lab1\\Form1.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAiwAUBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:27:53.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Filters.cs",
+              "RelativeDocumentMoniker": "CG_lab1\\Filters.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Filters.cs",
+              "RelativeToolTip": "CG_lab1\\Filters.cs",
+              "ViewState": "AgIAAMMCAAAAAAAAAAAqwM4CAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:45:12.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "CG_lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_lab1\\CG_lab1\\Form1.cs [Design]",
+              "RelativeToolTip": "CG_lab1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:47:23.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

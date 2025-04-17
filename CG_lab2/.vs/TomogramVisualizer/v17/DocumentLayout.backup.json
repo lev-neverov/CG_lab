@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|c:\\users\\levsn\\source\\repos\\cg_labs\\cg_lab2\\tomogramvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bin.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Bin.cs",
+              "RelativeDocumentMoniker": "TomogramVisualizer\\Bin.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Bin.cs",
+              "RelativeToolTip": "TomogramVisualizer\\Bin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:28:12.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Program.cs",
+              "RelativeDocumentMoniker": "TomogramVisualizer\\Program.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Program.cs",
+              "RelativeToolTip": "TomogramVisualizer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:28:11.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\View.cs",
+              "RelativeDocumentMoniker": "TomogramVisualizer\\View.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\View.cs",
+              "RelativeToolTip": "TomogramVisualizer\\View.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAkwKQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:28:06.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Form1.cs",
+              "RelativeDocumentMoniker": "TomogramVisualizer\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Form1.cs",
+              "RelativeToolTip": "TomogramVisualizer\\Form1.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwF0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:29:19.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Form1.cs",
+              "RelativeDocumentMoniker": "TomogramVisualizer\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG-lab2-Tomography-main\\TomogramVisualizer\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\CG-lab2-Tomography-main\\TomogramVisualizer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:28:00.81Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
