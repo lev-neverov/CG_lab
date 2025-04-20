@@ -1,37 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿using System.IO;
 
-namespace TomogramVisualizer
+public class Bin
 {
-    public class Bin
+    public static int X, Y, Z;
+    public static short[] array;
+
+    public Bin() { }
+
+    public void readBIN(string path)
     {
-        public static int X, Y, Z;
-        public static short[] array;
-
-        public Bin() { }
-        
-        public void readBIN(string path) 
+        if (File.Exists(path))
         {
-            if (File.Exists(path))
+            BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open));
+
+            X = reader.ReadInt32();
+            Y = reader.ReadInt32();
+            Z = reader.ReadInt32();
+
+            int arraySize = X * Y * Z;
+            short[] originalArray = new short[arraySize];
+            array = new short[arraySize];
+
+            for (int i = 0; i < arraySize; ++i)
             {
-                BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open));
+                //array[i] = reader.ReadInt16();    //раскомментить строку для изначального отображения, блоки с транспонированием и свопом переменных закомментить
 
-                X = reader.ReadInt32();
-                Y = reader.ReadInt32();
-                Z = reader.ReadInt32();
+                originalArray[i] = reader.ReadInt16();
+            }
 
-                int arraySize = X * Y * Z;
-                array = new short[arraySize];
-
-                for (int i = 0; i < arraySize; ++i)
+            //Вид сбоку. Транспонируем данные, меняя X и Z местами
+            for (int z = 0; z < Z; z++)
+            {
+                for (int y = 0; y < Y; y++)
                 {
-                    array[i] = reader.ReadInt16();
+                    for (int x = 0; x < X; x++)
+                    {
+                        // Оригинальный индекс: x + y * X + z * X * Y
+                        // Новый индекс: z + y * Z + x * Z * Y
+                        array[z + y * Z + x * Z * Y] = originalArray[x + y * X + z * X * Y];
+                    }
                 }
             }
+
+            int temp = X;
+            X = Z;
+            Z = temp;
+
+            ////Вид спереди. Транспонируем данные, меняя Y и Z местами
+            //array = new short[arraySize];
+            //for (int z = 0; z < Z; z++)
+            //{
+            //    for (int y = 0; y < Y; y++)
+            //    {
+            //        for (int x = 0; x < X; x++)
+            //        {
+            //            // Оригинальный индекс: x + y * X + z * X * Y
+            //            // Новый индекс: x + z * X + y * X * Z
+            //            array[x + z * X + y * X * Z] = originalArray[x + y * X + z * X * Y];
+            //        }
+            //    }
+            //}
+
+            //int temp = Y;
+            //Y = Z;
+            //Z = temp;
         }
     }
 }
