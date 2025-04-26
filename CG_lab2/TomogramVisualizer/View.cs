@@ -19,17 +19,17 @@ namespace TomogramVisualizer
 
         public View() { }
 
-        public void SetMin(int min) 
+        public void SetMin(int min)
         {
             this.min = min;
         }
 
-        public void SetWidth(int width) 
+        public void SetWidth(int width)
         {
             this.width = width;
         }
 
-        public void SetupView(int width, int height) 
+        public void SetupView(int width, int height)
         {
             GL.ShadeModel(ShadingModel.Smooth);
             GL.MatrixMode(MatrixMode.Projection);
@@ -50,22 +50,22 @@ namespace TomogramVisualizer
             }
 
             return value;
-        }    
+        }
 
-        private Color TransferFunction(short value) 
+        private Color TransferFunction(short value)
         {
             int newVal = Clamp((value - min) * 255 / (width), 0, 255);
 
             return Color.FromArgb(255, newVal, newVal, newVal);
         }
 
-        public void DrawQuads(int layerNumber) 
+        public void DrawQuads(int layerNumber)
         {
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.Begin(PrimitiveType.Quads);
-            for (int x_coord = 0; x_coord < Bin.X - 1; x_coord++) 
+            for (int x_coord = 0; x_coord < Bin.X - 1; x_coord++)
             {
-                for (int y_coord = 0; y_coord < Bin.Y - 1; y_coord++) 
+                for (int y_coord = 0; y_coord < Bin.Y - 1; y_coord++)
                 {
                     short value;
                     // 1 vertex
@@ -92,12 +92,12 @@ namespace TomogramVisualizer
             GL.End();
         }
 
-        public void DrawQuadStrip(int layerNumber) 
+        public void DrawQuadStrip(int layerNumber)
         {
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.Begin(PrimitiveType.QuadStrip);
 
-            for (int x_coord = 0; x_coord < Bin.X - 2; x_coord++)
+            for (int x_coord = 0; x_coord < Bin.X; x_coord++)
             {
                 short value;
                 // 1 vertex
@@ -110,7 +110,7 @@ namespace TomogramVisualizer
                 GL.Color3(TransferFunction(value));
                 GL.Vertex2(x_coord + 1, 0);
 
-                for (int y_coord = 0; y_coord < Bin.Y - 1; y_coord++)
+                for (int y_coord = 0; y_coord < Bin.Y; y_coord++)
                 {
                     // 1 next vertex
                     value = Bin.array[x_coord + (y_coord + 1) * Bin.X + layerNumber * Bin.X * Bin.Y];
@@ -123,7 +123,7 @@ namespace TomogramVisualizer
                     GL.Vertex2(x_coord + 1, y_coord + 1);
                 }
                 x_coord++;
-                for (int y_coord = Bin.Y - 1; y_coord > 1 ; y_coord--)
+                for (int y_coord = Bin.Y - 1; y_coord > 1; y_coord--)
                 {
                     // 1 next vertex
                     value = Bin.array[x_coord + y_coord * Bin.X + layerNumber * Bin.X * Bin.Y];
@@ -139,12 +139,12 @@ namespace TomogramVisualizer
             GL.End();
         }
 
-        public void GenerateTextureImage(int layerNumber) 
+        public void GenerateTextureImage(int layerNumber)
         {
             textureImage = new Bitmap(Bin.X, Bin.Y);
-            for(int i = 0; i < Bin.X; ++i) 
+            for (int i = 0; i < Bin.X; ++i)
             {
-                for(int j = 0; j < Bin.Y; ++j) 
+                for (int j = 0; j < Bin.Y; ++j)
                 {
                     int pixelNumber = i + j * Bin.X + layerNumber * Bin.X * Bin.Y;
                     textureImage.SetPixel(i, j, TransferFunction(Bin.array[pixelNumber]));
@@ -152,7 +152,7 @@ namespace TomogramVisualizer
             }
         }
 
-        public void Load2DTexture() 
+        public void Load2DTexture()
         {
             VBOtexture = GL.GenTexture();
             GL.BindTexture(TextureTarget.Texture2D, VBOtexture);
@@ -176,7 +176,7 @@ namespace TomogramVisualizer
             string str = Er.ToString();
         }
 
-        public void DrawTexture() 
+        public void DrawTexture()
         {
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.Enable(EnableCap.Texture2D);
@@ -196,5 +196,5 @@ namespace TomogramVisualizer
 
             GL.Disable(EnableCap.Texture2D);
         }
-    }   
+    }
 }

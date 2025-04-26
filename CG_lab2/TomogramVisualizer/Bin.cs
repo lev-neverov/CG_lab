@@ -3,6 +3,7 @@
 public class Bin
 {
     public static int X, Y, Z;
+    public int meow;
     public static short[] array;
 
     public Bin() { }
@@ -21,33 +22,19 @@ public class Bin
             short[] originalArray = new short[arraySize];
             array = new short[arraySize];
 
-            for (int i = 0; i < arraySize; ++i)
+            for (int i = 0; i < 6; ++i)
+            {
+                meow = reader.ReadInt16(); // во входных данных есть некоторое количество мусора, мб 6 или 12 байт
+            }
+
+                for (int i = 0; i < arraySize; ++i)
             {
                 //array[i] = reader.ReadInt16();    //раскомментить строку для изначального отображения, блоки с транспонированием и свопом переменных закомментить
 
                 originalArray[i] = reader.ReadInt16();
             }
 
-            //Вид сбоку. Транспонируем данные, меняя X и Z местами
-            for (int z = 0; z < Z; z++)
-            {
-                for (int y = 0; y < Y; y++)
-                {
-                    for (int x = 0; x < X; x++)
-                    {
-                        // Оригинальный индекс: x + y * X + z * X * Y
-                        // Новый индекс: z + y * Z + x * Z * Y
-                        array[z + y * Z + x * Z * Y] = originalArray[x + y * X + z * X * Y];
-                    }
-                }
-            }
-
-            int temp = X;
-            X = Z;
-            Z = temp;
-
-            ////Вид спереди. Транспонируем данные, меняя Y и Z местами
-            //array = new short[arraySize];
+            ////Вид сбоку. Транспонируем данные, меняя X и Z местами
             //for (int z = 0; z < Z; z++)
             //{
             //    for (int y = 0; y < Y; y++)
@@ -55,15 +42,36 @@ public class Bin
             //        for (int x = 0; x < X; x++)
             //        {
             //            // Оригинальный индекс: x + y * X + z * X * Y
-            //            // Новый индекс: x + z * X + y * X * Z
-            //            array[x + z * X + y * X * Z] = originalArray[x + y * X + z * X * Y];
+            //            // Новый индекс: z + y * Z + x * Z * Y
+            //            array[z + y * Z + x * Z * Y] = originalArray[x + y * X + z * X * Y];
+            //            //array[z + (Y - y - 1) * Z + x * Z * Y] = originalArray[x + y * X + z * X * Y];
+
             //        }
             //    }
             //}
 
-            //int temp = Y;
-            //Y = Z;
+            //int temp = X;
+            //X = Z;
             //Z = temp;
+
+            //Вид спереди. Транспонируем данные, меняя Y и Z местами
+
+            for (int z = 0; z < Z; z++)
+            {
+                for (int y = 0; y < Y; y++)
+                {
+                    for (int x = 0; x < X; x++)
+                    {
+                        // Оригинальный индекс: x + y * X + z * X * Y
+                        // Новый индекс: x + z * X + y * X * Z
+                        array[x + z * X + y * X * Z] = originalArray[x + y * X + z * X * Y];
+                    }
+                }
+            }
+
+            int temp = Y;
+            Y = Z;
+            Z = temp;
         }
     }
 }
