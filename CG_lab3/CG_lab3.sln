@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG_lab3", "CG_lab3\CG_lab3.csproj", "{99F7CC61-A249-4442-A98D-EC38CA494377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED708192-2751-4A33-883C-CEAEB4B98FE4}"
+	ProjectSection(SolutionItems) = preProject
+		raytracing.frag = raytracing.frag
+		raytracing.vert = raytracing.vert
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F7CC61-A249-4442-A98D-EC38CA494377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F7CC61-A249-4442-A98D-EC38CA494377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F7CC61-A249-4442-A98D-EC38CA494377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F7CC61-A249-4442-A98D-EC38CA494377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

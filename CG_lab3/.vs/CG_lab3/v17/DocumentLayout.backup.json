@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED708192-2751-4A33-883C-CEAEB4B98FE4}|Solution Items{ED708192-2751-4A33-883C-CEAEB4B98FE4}|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED708192-2751-4A33-883C-CEAEB4B98FE4}|Solution Items{ED708192-2751-4A33-883C-CEAEB4B98FE4}|solutionrelative:raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED708192-2751-4A33-883C-CEAEB4B98FE4}|Solution Items{ED708192-2751-4A33-883C-CEAEB4B98FE4}|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED708192-2751-4A33-883C-CEAEB4B98FE4}|Solution Items{ED708192-2751-4A33-883C-CEAEB4B98FE4}|solutionrelative:raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\cg_lab3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|solutionrelative:cg_lab3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\cg_lab3\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|solutionrelative:cg_lab3\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\cg_lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|solutionrelative:cg_lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\cg_lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|solutionrelative:cg_lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\cg_lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99F7CC61-A249-4442-A98D-EC38CA494377}|CG_lab3\\CG_lab3.csproj|solutionrelative:cg_lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "raytracing.vert",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.vert",
+              "RelativeDocumentMoniker": "raytracing.vert",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.vert",
+              "RelativeToolTip": "raytracing.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T19:19:52.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "raytracing.frag",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.frag",
+              "RelativeDocumentMoniker": "raytracing.frag",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\raytracing.frag",
+              "RelativeToolTip": "raytracing.frag",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAAEoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T19:10:07.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "CG_lab3\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.Designer.cs",
+              "RelativeToolTip": "CG_lab3\\Form1.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T18:44:05.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Program.cs",
+              "RelativeDocumentMoniker": "CG_lab3\\Program.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Program.cs",
+              "RelativeToolTip": "CG_lab3\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T18:01:35.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\View.cs",
+              "RelativeDocumentMoniker": "CG_lab3\\View.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\View.cs",
+              "RelativeToolTip": "CG_lab3\\View.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:22:40.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "CG_lab3\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.cs",
+              "RelativeToolTip": "CG_lab3\\Form1.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:54:41.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "CG_lab3\\Form1.cs",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab3\\CG_lab3\\Form1.cs [Design]",
+              "RelativeToolTip": "CG_lab3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:53:00.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

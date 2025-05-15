@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|c:\\users\\levsn\\source\\repos\\cg_labs\\cg_lab2\\tomogramvisualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|c:\\users\\levsn\\source\\repos\\cg_labs\\cg_lab2\\tomogramvisualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\tomogramvisualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4C47667-0703-489E-A5CE-0CFA826E2ABB}|TomogramVisualizer\\TomogramVisualizer.csproj|solutionrelative:tomogramvisualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,9 +51,9 @@
               "Title": "Bin.cs",
               "DocumentMoniker": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Bin.cs",
               "RelativeDocumentMoniker": "TomogramVisualizer\\Bin.cs",
-              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Bin.cs*",
-              "RelativeToolTip": "TomogramVisualizer\\Bin.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBgAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\Bin.cs",
+              "RelativeToolTip": "TomogramVisualizer\\Bin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T18:28:12.879Z",
               "EditorCaption": ""
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "TomogramVisualizer\\View.cs",
               "ToolTip": "C:\\Users\\levsn\\source\\repos\\CG_labs\\CG_lab2\\TomogramVisualizer\\View.cs",
               "RelativeToolTip": "TomogramVisualizer\\View.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHAAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwHAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T18:28:06.992Z",
               "EditorCaption": ""
